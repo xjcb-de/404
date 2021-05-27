@@ -6,6 +6,8 @@
 
   <link href="style/main.css" rel="stylesheet" type="text/css">
   <link href="style/404.css" rel="stylesheet" type="text/css">
+  <noscript><style>.noscript-invisible{visibility:hidden}</style></noscript>
+  
   <link rel="shortcut icon" href="favicon.ico">
   <link rel="apple-touch-icon" href="meta/apple-touch-icon.png">
   <link rel="apple-touch-startup-image" href="meta/apple-touch-startup-image-640x1096.png" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)"> <!-- iPhone 5+ -->
@@ -28,7 +30,7 @@
     </div>
 
     <div class="above-game">
-      <p class="game-intro">Join the numbers and get to the <strong>2048 tile!</strong></p>
+      <h3 class="subtitle visible">Page Not Found</h3>
       <a class="restart-button">New Game</a>
     </div>
 
@@ -69,13 +71,23 @@
       </div>
 
       <div class="tile-container">
-
+        <noscript>
+          <div class="tile tile-4 tile-position-1-2 tile-new">
+            <div class="tile-inner">4</div>
+          </div>
+          <div class="tile tile-0 tile-position-2-2 tile-new">
+            <div class="tile-inner">0</div>
+          </div>
+          <div class="tile tile-4 tile-position-3-2 tile-new">
+            <div class="tile-inner">4</div>
+          </div>
+        </noscript>
       </div>
     </div>
 
     <p class="game-explanation">
       <strong class="important">How to play:</strong><br/>
-      <span class="visible">Use your <strong>arrow keys</strong> or <strong>swipe</strong></span> to move the tiles. When two tiles with the same number touch, they <strong>merge into one!</strong>
+      <span class="visible noscript-invisible">Use your <strong>arrow keys</strong> or <strong>swipe</strong></span> to move the tiles. When two tiles with the same number touch, they <strong>merge into one!</strong>
     </p>
     <hr>
     <p>
