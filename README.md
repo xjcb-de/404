@@ -1,4 +1,4 @@
-> I converted the 2048 game into an entertaining 404 error page.
+> I converted the 2048 game into an entertaining 404 error page. [See the page in action](https://xjcb.de/games/404/).
 
 # 2048
 
