@@ -1,0 +1,6 @@
+.container {
+    visibility:hidden;
+}
+.visible {
+    visibility:visible;
+}
